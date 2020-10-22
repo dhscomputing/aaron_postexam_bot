@@ -26,7 +26,10 @@ while True:
       feelings_list.append("enjoying")
       encouragement_list.append("share the fun")
       counter += 1
-
+    if each_word == "relaxed":
+      feelings_list.append("enjoying")
+      encouragement_list.append("Do whatever you like")
+      counter += 1
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use different words?"
