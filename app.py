@@ -26,6 +26,17 @@ while True:
       feelings_list.append("enjoying")
       encouragement_list.append("share the fun")
       counter += 1
+    if each_word == "lazy":
+      feelings_list.append("lazy")
+      encouragement_list.append("do something you like")
+      counter += 1
+    if each_word == "sad":
+      feelings_list.append("sad")
+      encouragement_list.append("cheer up the days will get better")
+      counter += 1
+    if each_word == "confused"
+      feelings_list.append("confused")
+      encouragement_list.append("talking to someone may help")
 
   if counter == 0:
     
